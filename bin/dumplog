@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+'use strict'
+
+var dumplog = require('../lib/index')
+
+var argv = process.argv
+
+console.log('ha', argv)
+
+var type = argv[2]
+var port = argv[3]
+
+var dl = dumplog[type]({ port })
+
+if (type === 'client') {
+  let labels = argv.slice(4)
+  if (labels.length) {
+    dl.subscribe(labels)
+  }
+}
