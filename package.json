@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "dump logs to streams",
   "main": "lib/index.js",
+  "bin" : { "dumplog" : "./bin/dumplog" },
   "scripts": {
     "test": "npm test"
   },
