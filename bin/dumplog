@@ -5,8 +5,6 @@ var dumplog = require('../lib/index')
 
 var argv = process.argv
 
-console.log('ha', argv)
-
 var type = argv[2]
 var port = argv[3]
 
