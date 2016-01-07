@@ -15,6 +15,7 @@ var dump2 = client.dump.logger(['otherlabel', 'thirdlabel'])
 
 setInterval(function () {
   dump1({obj: true})
+  dump1('ja hallo', 'urk:\n', {ahahaha: 1})
   // dump2('lalawa')
 }, 1000)
 
