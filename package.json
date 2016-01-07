@@ -1,9 +1,11 @@
 {
   "name": "vigour-dumplog",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "dump logs to streams",
   "main": "lib/index.js",
-  "bin" : { "dumplog" : "./bin/dumplog" },
+  "bin": {
+    "dumplog": "./bin/dumplog"
+  },
   "scripts": {
     "test": "npm test"
   },
