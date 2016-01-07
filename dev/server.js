@@ -7,7 +7,7 @@ var context = repl.context
 var dl = require('../lib/index')
 
 context.server = dl.server({
-  port: 50555
+  port: 50666
 })
 
 // -- repl shortcuts
