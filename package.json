@@ -1,5 +1,5 @@
 {
-  "name": "dumplog",
+  "name": "@vigour/dumplog",
   "version": "0.0.1",
   "description": "dump logs to streams",
   "main": "lib/index.js",
